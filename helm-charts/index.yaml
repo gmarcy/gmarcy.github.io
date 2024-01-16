@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  homelab-cert-manager-webhook:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-01-16T14:13:48.718717509-05:00"
+    description: A Cert Manager Webhook for my Homelab
+    digest: aa6c4a98403dd26108520fbe2e1ac7bd42fd974d61229bc1fb07461c2c7bd518
+    name: homelab-cert-manager-webhook
+    type: application
+    urls:
+    - https://gmarcy.github.io/helm-charts/homelab-cert-manager-webhook-0.1.0.tgz
+    version: 0.1.0
+  homelab-letsencrypt-issuers:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-01-16T14:13:48.718818283-05:00"
+    description: Deploy letsencrypt issuers for homelab clusters
+    digest: 54a702becfa78713bd18267ecb60df592386787a25deff1b705b50dc22641aa2
+    name: homelab-letsencrypt-issuers
+    type: application
+    urls:
+    - https://gmarcy.github.io/helm-charts/homelab-letsencrypt-issuers-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-01-16T14:13:48.71844073-05:00"
